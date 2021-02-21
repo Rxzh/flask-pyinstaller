@@ -9,3 +9,9 @@ Commande pour build:
 
 
 $ pyinstaller --onefile --add-data 'templates:templates' --add-data 'static:static' flaskapp.py
+
+
+Windows:
+
+
+$ pyinstaller --onefile --add-data 'templates;templates' --add-data 'static;static' flaskapp.py
