@@ -14,4 +14,4 @@ $ pyinstaller --onefile --add-data 'templates:templates' --add-data 'static:stat
 Windows:
 
 
-$ pyinstaller --onefile --add-data 'templates;templates' --add-data 'static;static' flaskapp.py
+$ pyinstaller --onefile --add-data "templates;templates" --add-data "static;static" flaskapp.py
